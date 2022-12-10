@@ -1,15 +1,15 @@
 @sys.description('The Web App name.')
 @minLength(3)
 @maxLength(24)
-param appServiceAppName string = 'jseijas-app-bicep'
+param appServiceAppName string = 'jrubiales-app-bicep'
 @sys.description('The App Service Plan name.')
 @minLength(3)
 @maxLength(24)
-param appServicePlanName string = 'jseijas-app-bicep'
+param appServicePlanName string = 'jrubiales-app-bicep'
 @sys.description('The Storage Account name.')
 @minLength(3)
 @maxLength(24)
-param storageAccountName string = 'jseijasstorage'
+param storageAccountName string = 'jrubialesstorage'
 @allowed([
   'nonprod'
   'prod'
